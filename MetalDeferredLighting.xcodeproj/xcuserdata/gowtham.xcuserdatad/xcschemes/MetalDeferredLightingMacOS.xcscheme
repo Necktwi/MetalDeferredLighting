@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "62D382EB19358508003FF3EA"
-               BuildableName = "MetalDeferredLighting.app"
-               BlueprintName = "MetalDeferredLighting"
+               BlueprintIdentifier = "6541EB2F1EF7051E008193CA"
+               BuildableName = "MetalDeferredLightingMacOS.app"
+               BlueprintName = "MetalDeferredLightingMacOS"
                ReferencedContainer = "container:MetalDeferredLighting.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "62D382EB19358508003FF3EA"
-            BuildableName = "MetalDeferredLighting.app"
-            BlueprintName = "MetalDeferredLighting"
+            BlueprintIdentifier = "6541EB2F1EF7051E008193CA"
+            BuildableName = "MetalDeferredLightingMacOS.app"
+            BlueprintName = "MetalDeferredLightingMacOS"
             ReferencedContainer = "container:MetalDeferredLighting.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -50,15 +50,14 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
-      enableGPUValidationMode = "1"
       allowLocationSimulation = "YES">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "62D382EB19358508003FF3EA"
-            BuildableName = "MetalDeferredLighting.app"
-            BlueprintName = "MetalDeferredLighting"
+            BlueprintIdentifier = "6541EB2F1EF7051E008193CA"
+            BuildableName = "MetalDeferredLightingMacOS.app"
+            BlueprintName = "MetalDeferredLightingMacOS"
             ReferencedContainer = "container:MetalDeferredLighting.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -75,9 +74,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "62D382EB19358508003FF3EA"
-            BuildableName = "MetalDeferredLighting.app"
-            BlueprintName = "MetalDeferredLighting"
+            BlueprintIdentifier = "6541EB2F1EF7051E008193CA"
+            BuildableName = "MetalDeferredLightingMacOS.app"
+            BlueprintName = "MetalDeferredLightingMacOS"
             ReferencedContainer = "container:MetalDeferredLighting.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

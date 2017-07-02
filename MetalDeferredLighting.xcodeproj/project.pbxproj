@@ -13,6 +13,36 @@
 		62D382FD19358508003FF3EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62D382FB19358508003FF3EA /* Main.storyboard */; };
 		62D382FF19358508003FF3EA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62D382FE19358508003FF3EA /* Images.xcassets */; };
 		62D3832119358581003FF3EA /* AAPLViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 62D3831E19358581003FF3EA /* AAPLViewController.mm */; };
+		65255A071F0012B9003E79A6 /* AAPLView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6541EB761EF92C31008193CA /* AAPLView.h */; };
+		65255A081F0012BA003E79A6 /* AAPLView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6541EB761EF92C31008193CA /* AAPLView.h */; };
+		65255A091F0012C5003E79A6 /* AAPLAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6541EB731EF92C30008193CA /* AAPLAppDelegate.h */; };
+		65255A0A1F0012C5003E79A6 /* AAPLRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6541EB771EF92C31008193CA /* AAPLRenderer.h */; };
+		65255A0B1F0012C5003E79A6 /* AAPLUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 6541EB751EF92C31008193CA /* AAPLUtilities.h */; };
+		65255A0C1F0012C7003E79A6 /* AAPLAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6541EB731EF92C30008193CA /* AAPLAppDelegate.h */; };
+		65255A0D1F0012C7003E79A6 /* AAPLRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6541EB771EF92C31008193CA /* AAPLRenderer.h */; };
+		65255A0E1F0012C7003E79A6 /* AAPLUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 6541EB751EF92C31008193CA /* AAPLUtilities.h */; };
+		65255A0F1F0012F0003E79A6 /* AAPLTransforms.h in Headers */ = {isa = PBXBuildFile; fileRef = 6541EB651EF92A92008193CA /* AAPLTransforms.h */; };
+		65255A101F0012F0003E79A6 /* AAPLTransforms.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6541EB661EF92A92008193CA /* AAPLTransforms.mm */; };
+		65255A111F0012F1003E79A6 /* AAPLTransforms.h in Headers */ = {isa = PBXBuildFile; fileRef = 6541EB651EF92A92008193CA /* AAPLTransforms.h */; };
+		65255A121F0012F1003E79A6 /* AAPLTransforms.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6541EB661EF92A92008193CA /* AAPLTransforms.mm */; };
+		65255A131F0012F8003E79A6 /* AAPLObjModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 6541EB681EF92AE3008193CA /* AAPLObjModel.h */; };
+		65255A141F0012F8003E79A6 /* AAPLObjModel.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6541EB671EF92AE3008193CA /* AAPLObjModel.mm */; };
+		65255A151F0012F8003E79A6 /* AAPLObjModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 6541EB681EF92AE3008193CA /* AAPLObjModel.h */; };
+		65255A161F0012F9003E79A6 /* AAPLObjModel.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6541EB671EF92AE3008193CA /* AAPLObjModel.mm */; };
+		65255A171F001302003E79A6 /* common.h in Headers */ = {isa = PBXBuildFile; fileRef = 6541EB6C1EF92B52008193CA /* common.h */; };
+		65255A181F001302003E79A6 /* Composition.metal in Sources */ = {isa = PBXBuildFile; fileRef = 6541EB6A1EF92B52008193CA /* Composition.metal */; };
+		65255A191F001302003E79A6 /* Fairy.metal in Sources */ = {isa = PBXBuildFile; fileRef = 6541EB6B1EF92B52008193CA /* Fairy.metal */; };
+		65255A1A1F001302003E79A6 /* GBuffer.metal in Sources */ = {isa = PBXBuildFile; fileRef = 6541EB691EF92B52008193CA /* GBuffer.metal */; };
+		65255A1B1F001302003E79A6 /* Light.metal in Sources */ = {isa = PBXBuildFile; fileRef = 6541EB6F1EF92B52008193CA /* Light.metal */; };
+		65255A1C1F001302003E79A6 /* Skybox.metal in Sources */ = {isa = PBXBuildFile; fileRef = 6541EB6E1EF92B52008193CA /* Skybox.metal */; };
+		65255A1D1F001302003E79A6 /* ZOnly.metal in Sources */ = {isa = PBXBuildFile; fileRef = 6541EB6D1EF92B52008193CA /* ZOnly.metal */; };
+		65255A1E1F001303003E79A6 /* common.h in Headers */ = {isa = PBXBuildFile; fileRef = 6541EB6C1EF92B52008193CA /* common.h */; };
+		65255A1F1F001303003E79A6 /* Composition.metal in Sources */ = {isa = PBXBuildFile; fileRef = 6541EB6A1EF92B52008193CA /* Composition.metal */; };
+		65255A201F001303003E79A6 /* Fairy.metal in Sources */ = {isa = PBXBuildFile; fileRef = 6541EB6B1EF92B52008193CA /* Fairy.metal */; };
+		65255A211F001303003E79A6 /* GBuffer.metal in Sources */ = {isa = PBXBuildFile; fileRef = 6541EB691EF92B52008193CA /* GBuffer.metal */; };
+		65255A221F001303003E79A6 /* Light.metal in Sources */ = {isa = PBXBuildFile; fileRef = 6541EB6F1EF92B52008193CA /* Light.metal */; };
+		65255A231F001303003E79A6 /* Skybox.metal in Sources */ = {isa = PBXBuildFile; fileRef = 6541EB6E1EF92B52008193CA /* Skybox.metal */; };
+		65255A241F001303003E79A6 /* ZOnly.metal in Sources */ = {isa = PBXBuildFile; fileRef = 6541EB6D1EF92B52008193CA /* ZOnly.metal */; };
 		6541EB3F1EF7051E008193CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6541EB3E1EF7051E008193CA /* Images.xcassets */; };
 		659ACEEF1EFB92B700BA4DE5 /* AAPLViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 65BA9C5F1EF9425D00934A9F /* AAPLViewController.h */; };
 		659ACEF11EFB92EE00BA4DE5 /* AAPLViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 62D3831D19358581003FF3EA /* AAPLViewController.h */; };
@@ -106,14 +136,14 @@
 		6541EB6D1EF92B52008193CA /* ZOnly.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; name = ZOnly.metal; path = Common/ZOnly.metal; sourceTree = SOURCE_ROOT; };
 		6541EB6E1EF92B52008193CA /* Skybox.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; name = Skybox.metal; path = Common/Skybox.metal; sourceTree = SOURCE_ROOT; };
 		6541EB6F1EF92B52008193CA /* Light.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; name = Light.metal; path = Common/Light.metal; sourceTree = SOURCE_ROOT; };
-		6541EB701EF92C30008193CA /* AAPLView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = AAPLView.mm; path = Common/AAPLView.mm; sourceTree = "<group>"; };
-		6541EB711EF92C30008193CA /* AAPLAppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = AAPLAppDelegate.mm; path = Common/AAPLAppDelegate.mm; sourceTree = "<group>"; };
-		6541EB721EF92C30008193CA /* AAPLRenderer.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = AAPLRenderer.mm; path = Common/AAPLRenderer.mm; sourceTree = "<group>"; };
-		6541EB731EF92C30008193CA /* AAPLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AAPLAppDelegate.h; path = Common/AAPLAppDelegate.h; sourceTree = "<group>"; };
-		6541EB751EF92C31008193CA /* AAPLUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AAPLUtilities.h; path = Common/AAPLUtilities.h; sourceTree = "<group>"; };
-		6541EB761EF92C31008193CA /* AAPLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AAPLView.h; path = Common/AAPLView.h; sourceTree = "<group>"; };
-		6541EB771EF92C31008193CA /* AAPLRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AAPLRenderer.h; path = Common/AAPLRenderer.h; sourceTree = "<group>"; };
-		6541EB781EF92C31008193CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Common/main.m; sourceTree = "<group>"; };
+		6541EB701EF92C30008193CA /* AAPLView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AAPLView.mm; sourceTree = "<group>"; };
+		6541EB711EF92C30008193CA /* AAPLAppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = AAPLAppDelegate.mm; path = Common/AAPLAppDelegate.mm; sourceTree = SOURCE_ROOT; };
+		6541EB721EF92C30008193CA /* AAPLRenderer.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = AAPLRenderer.mm; path = Common/AAPLRenderer.mm; sourceTree = SOURCE_ROOT; };
+		6541EB731EF92C30008193CA /* AAPLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AAPLAppDelegate.h; path = Common/AAPLAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		6541EB751EF92C31008193CA /* AAPLUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLUtilities.h; sourceTree = "<group>"; };
+		6541EB761EF92C31008193CA /* AAPLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLView.h; sourceTree = "<group>"; };
+		6541EB771EF92C31008193CA /* AAPLRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLRenderer.h; sourceTree = "<group>"; };
+		6541EB781EF92C31008193CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Common/main.m; sourceTree = SOURCE_ROOT; };
 		659ACEF31EFB942000BA4DE5 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/MetalKit.framework; sourceTree = DEVELOPER_DIR; };
 		659ACEF51EFB958900BA4DE5 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Metal.framework; sourceTree = DEVELOPER_DIR; };
 		659ACEF71EFB95A900BA4DE5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -205,8 +235,8 @@
 				6541EB661EF92A92008193CA /* AAPLTransforms.mm */,
 			);
 			name = Math;
-			path = MetalDeferredLighting;
-			sourceTree = "<group>";
+			path = Common;
+			sourceTree = SOURCE_ROOT;
 		};
 		62D38325193585DB003FF3EA /* Assets */ = {
 			isa = PBXGroup;
@@ -230,8 +260,8 @@
 				6541EB5F1EF92023008193CA /* Temple.obj */,
 			);
 			name = Assets;
-			path = MetalDeferredLighting;
-			sourceTree = "<group>";
+			path = Common;
+			sourceTree = SOURCE_ROOT;
 		};
 		62D38326193585E5003FF3EA /* Shaders */ = {
 			isa = PBXGroup;
@@ -245,8 +275,8 @@
 				6541EB6D1EF92B52008193CA /* ZOnly.metal */,
 			);
 			name = Shaders;
-			path = MetalDeferredLighting;
-			sourceTree = "<group>";
+			path = Common;
+			sourceTree = SOURCE_ROOT;
 		};
 		62D3835E19358654003FF3EA /* ModelLoader */ = {
 			isa = PBXGroup;
@@ -255,8 +285,8 @@
 				6541EB671EF92AE3008193CA /* AAPLObjModel.mm */,
 			);
 			name = ModelLoader;
-			path = MetalDeferredLighting;
-			sourceTree = "<group>";
+			path = Common;
+			sourceTree = SOURCE_ROOT;
 		};
 		6541EB311EF7051E008193CA /* MetalDeferredLightingMacOS */ = {
 			isa = PBXGroup;
@@ -294,8 +324,8 @@
 				62D3835E19358654003FF3EA /* ModelLoader */,
 				62D38326193585E5003FF3EA /* Shaders */,
 			);
-			name = Common;
-			sourceTree = "<group>";
+			path = Common;
+			sourceTree = SOURCE_ROOT;
 		};
 		659ACEF21EFB942000BA4DE5 /* Frameworks */ = {
 			isa = PBXGroup;
@@ -315,6 +345,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				659ACEEF1EFB92B700BA4DE5 /* AAPLViewController.h in Headers */,
+				65255A111F0012F1003E79A6 /* AAPLTransforms.h in Headers */,
+				65255A0D1F0012C7003E79A6 /* AAPLRenderer.h in Headers */,
+				65255A0C1F0012C7003E79A6 /* AAPLAppDelegate.h in Headers */,
+				65255A151F0012F8003E79A6 /* AAPLObjModel.h in Headers */,
+				65255A0E1F0012C7003E79A6 /* AAPLUtilities.h in Headers */,
+				65255A081F0012BA003E79A6 /* AAPLView.h in Headers */,
+				65255A1E1F001303003E79A6 /* common.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +360,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				659ACEF11EFB92EE00BA4DE5 /* AAPLViewController.h in Headers */,
+				65255A0F1F0012F0003E79A6 /* AAPLTransforms.h in Headers */,
+				65255A0A1F0012C5003E79A6 /* AAPLRenderer.h in Headers */,
+				65255A091F0012C5003E79A6 /* AAPLAppDelegate.h in Headers */,
+				65255A131F0012F8003E79A6 /* AAPLObjModel.h in Headers */,
+				65255A0B1F0012C5003E79A6 /* AAPLUtilities.h in Headers */,
+				65255A071F0012B9003E79A6 /* AAPLView.h in Headers */,
+				65255A171F001302003E79A6 /* common.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,12 +508,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65255A1B1F001302003E79A6 /* Light.metal in Sources */,
+				65255A181F001302003E79A6 /* Composition.metal in Sources */,
 				65BA9C621EF942E700934A9F /* AAPLRenderer.mm in Sources */,
+				65255A1C1F001302003E79A6 /* Skybox.metal in Sources */,
+				65255A1D1F001302003E79A6 /* ZOnly.metal in Sources */,
+				65255A141F0012F8003E79A6 /* AAPLObjModel.mm in Sources */,
 				62D3832119358581003FF3EA /* AAPLViewController.mm in Sources */,
+				65255A101F0012F0003E79A6 /* AAPLTransforms.mm in Sources */,
 				65BA9C641EF942EE00934A9F /* AAPLView.mm in Sources */,
 				303B4DC31C59C9EF000A2A40 /* README.md in Sources */,
 				65BA9C691EF9446A00934A9F /* main.m in Sources */,
 				65BA9C601EF942E200934A9F /* AAPLAppDelegate.mm in Sources */,
+				65255A191F001302003E79A6 /* Fairy.metal in Sources */,
+				65255A1A1F001302003E79A6 /* GBuffer.metal in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,11 +529,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65255A121F0012F1003E79A6 /* AAPLTransforms.mm in Sources */,
 				65BA9C6A1EF9446B00934A9F /* main.m in Sources */,
 				65BA9C651EF942EF00934A9F /* AAPLView.mm in Sources */,
 				65BA9C631EF942E800934A9F /* AAPLRenderer.mm in Sources */,
 				65BA9C611EF942E300934A9F /* AAPLAppDelegate.mm in Sources */,
+				65255A241F001303003E79A6 /* ZOnly.metal in Sources */,
+				65255A231F001303003E79A6 /* Skybox.metal in Sources */,
+				65255A201F001303003E79A6 /* Fairy.metal in Sources */,
+				65255A221F001303003E79A6 /* Light.metal in Sources */,
+				65255A161F0012F9003E79A6 /* AAPLObjModel.mm in Sources */,
+				65255A1F1F001303003E79A6 /* Composition.metal in Sources */,
 				65BA9C5E1EF9423B00934A9F /* AAPLViewController.mm in Sources */,
+				65255A211F001303003E79A6 /* GBuffer.metal in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -604,12 +664,14 @@
 		62D3830F19358508003FF3EA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 92458GN43Z;
 				INFOPLIST_FILE = MetalDeferredLighting/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.MetalDeferredLighting";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYSTEM_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/MetalDeferredLighting\"/** \"$(SRCROOT)/Common\"/**";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -617,12 +679,14 @@
 		62D3831019358508003FF3EA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 92458GN43Z;
 				INFOPLIST_FILE = MetalDeferredLighting/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.MetalDeferredLighting";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYSTEM_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/MetalDeferredLighting\"/** \"$(SRCROOT)/Common\"/**";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -630,6 +694,7 @@
 		6541EB481EF7051E008193CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -642,7 +707,7 @@
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_ENTITLEMENTS = MetalDeferredLightingMacOS/MetalDeferredLightingMacOS.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -657,12 +722,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ferryfair.MetalDeferredLightingMacOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/MetalDeferredLightingMacOS\"/** \"$(SRCROOT)/Common\"/**";
 			};
 			name = Debug;
 		};
 		6541EB491EF7051E008193CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -675,7 +742,7 @@
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_ENTITLEMENTS = MetalDeferredLightingMacOS/MetalDeferredLightingMacOS.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
@@ -690,6 +757,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ferryfair.MetalDeferredLightingMacOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/MetalDeferredLightingMacOS\"/** \"$(SRCROOT)/Common\"/**";
 			};
 			name = Release;
 		};
